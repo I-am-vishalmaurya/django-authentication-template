@@ -9,5 +9,6 @@ venv/
 env/
 tmp/
 .env
+.DS_Store
 
 db.sqlite3
