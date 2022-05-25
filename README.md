@@ -33,6 +33,7 @@ cd django-authentication-template
 python -m venv venv
 ```
 Activate it by running the following command:
+
 MacOS or Linux:
 ```
 source venv/bin/activate
@@ -52,6 +53,18 @@ pip install -r requirements.txt
 1. Edit `source/app/conf/development/settings.py` if you want to develop the project.
 
 2. Edit `source/app/conf/production/settings.py` if you want to run the project in production.
+
+
+### Configure the environment varibales
+1. Create `.env` file in the source directory.
+2. Add the following lines to the file:
+```
+DJANGO_SECRET_KEY=
+EMAIL_HOST_USER=
+EMAIL_PASSWORD=
+DEBUG=1
+```
+
 
 ### Apply migrations
 
