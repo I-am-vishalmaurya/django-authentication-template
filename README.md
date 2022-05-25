@@ -1,17 +1,6 @@
-# Simple Django Login and Registration
+# Django Authentication Template
 
-An example of Django project with basic user functionality.
-
-## Screenshots
-
-| Log In | Create an account | Authorized page |
-| -------|--------------|-----------------|
-| <img src="./screenshots/login.png" width="200"> | <img src="./screenshots/create_an_account.png" width="200"> | <img src="./screenshots/authorized_page.png" width="200"> |
-
-| Password reset | Set new password | Password change |
-| ---------------|------------------|-----------------|
-| <img src="./screenshots/password_reset.png" width="200"> | <img src="./screenshots/set_new_password.png" width="200"> | <img src="./screenshots/password_change.png" width="200"> |
-
+Django Authentication Template
 ## Functionality
 
 - Log in
@@ -28,24 +17,34 @@ An example of Django project with basic user functionality.
 - Change password
 - Change email
 - Change profile
-- Multilingual: English, French, Russian, Simplified Chinese and Spanish
+
 
 ## Installing
 
 ### Clone the project
 
 ```
-git clone https://github.com/egorsmkv/simple-django-login-and-register
-cd simple-django-login-and-register
+git clone https://github.com/I-am-vishalmaurya/django-authentication-template.git
+cd django-authentication-template
 ```
 
-### Install dependencies & activate virtualenv
-
+### Create Virtual environment and activate it.
 ```
-pip install pipenv
+python -m venv venv
+```
+Activate it by running the following command:
+MacOS or Linux:
+```
+source venv/bin/activate
+```
+For windows:
+```
+.\venv\Scripts\activate
+```
 
-pipenv install
-pipenv shell
+### Install the requirements
+```
+pip install -r requirements.txt
 ```
 
 ### Configure the settings (connection to the database, connection to an SMTP server, and other options)
