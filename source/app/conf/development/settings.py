@@ -1,6 +1,5 @@
 import os
 import warnings
-from django.utils.translation import gettext_lazy as _
 from os.path import dirname
 
 from dotenv import load_dotenv
@@ -112,16 +111,6 @@ if DISABLE_USERNAME:
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 
-USE_I18N = True
-USE_L10N = True
-LANGUAGE_CODE = 'en'
-LANGUAGES = [
-    ('en', _('English')),
-    ('ru', _('Russian')),
-    ('zh-Hans', _('Simplified Chinese')),
-    ('fr', _('French')),
-    ('es', _('Spanish')),
-]
 
 TIME_ZONE = 'UTC'
 USE_TZ = True
