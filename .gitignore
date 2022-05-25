@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+
+__pycache__/
+
+source/content/media/
+source/content/static/
+venv/
+env/
+tmp/
+.env
+
+db.sqlite3
